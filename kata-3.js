@@ -3,7 +3,7 @@
 const numberOfVowels = function(data) {
   let sum = 0;
   for (let char of data) {
-    if (char==='a' || char==='e' || char==='i' || char==='o' || char==='u') {
+    if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
       sum++;
     }
   }
