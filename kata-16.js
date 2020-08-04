@@ -1,7 +1,7 @@
 // function that converts strings into all different kinds of case styles; like camel, pascal, snake, or even kebab.
 
 const makeCase = function (input, type) {
-  // create a variable that will be manipulated to produce an output
+  // create a variable that will be manipulated to produce the output
   let output = input;
   // create a new array to make sure that the function accepts both strings or arrays as type argument and that the case styles will be applied in the requested order
   let typesArray = [];
