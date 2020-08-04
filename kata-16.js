@@ -1,4 +1,4 @@
-// a function that converts strings into all different kinds of case styles; like camel, pascal, snake, or even kebab.
+// function that converts strings into all different kinds of case styles; like camel, pascal, snake, or even kebab.
 
 const makeCase = function (input, type) {
   // create a variable that will be manipulated to produce an output
@@ -140,20 +140,3 @@ console.log(makeCase("this is a string", "title"));
 console.log(makeCase("this is a string", "vowel"));
 console.log(makeCase("this is a string", "consonant"));
 console.log(makeCase("this is a string", ["upper", "snake"]));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
